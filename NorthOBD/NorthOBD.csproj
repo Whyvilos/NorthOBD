@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>ic2.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="0gt8ShQSrD0.jpg" />
+    <None Remove="bg.png" />
+    <None Remove="bg2.png" />
+    <None Remove="ic.png" />
+    <None Remove="ic2.png" />
+    <None Remove="MUSC-WITH-NARRATIONS.png" />
+    <None Remove="N.png" />
+    <None Remove="NorthOsu.png" />
+    <None Remove="OpenOSU.png" />
+    <None Remove="xSQn8LjJLK0.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="0gt8ShQSrD0.jpg" />
+    <Resource Include="bg.png" />
+    <Resource Include="bg2.png" />
+    <Resource Include="ic.png" />
+    <Resource Include="ic2.png" />
+    <Resource Include="MUSC-WITH-NARRATIONS.png" />
+    <Resource Include="N.png" />
+    <Resource Include="NorthOsu.png" />
+    <Resource Include="OpenOSU.png" />
+    <Resource Include="xSQn8LjJLK0.jpg" />
+  </ItemGroup>
+
+</Project>
